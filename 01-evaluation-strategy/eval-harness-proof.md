@@ -88,6 +88,6 @@ Word counts use whitespace-separated tokens, excluding bullet markers.
 
 Both outputs retain the 25% month-over-month engagement increase and its stated causes; the 42% to 35% open-rate decline; next week's subject-line test; the November delay and pending legal approval; readiness of creative assets; and Friday's tracking-link deadline. Neither claims that legal approval has been granted or invents an action owner.
 
-**Assistant-recommended winner: Version A.** It preserves the essential information with fewer words and no closing recap. Version B follows its length and tone instructions but adds reading effort; its final sentence is redundant under the drafted usability criterion. This is a recommendation pending the learner's final checkpoint confirmation, not a learner-authored verdict or independent judge score.
+**Learner-confirmed winner: Version A.** It preserves the essential information with fewer words and no closing recap. Version B follows its length and tone instructions but adds reading effort; its final sentence is redundant under the drafted usability criterion. The learner confirmed Version A as the winner at the final checkpoint. The criteria and comparison rationale were drafted by the assistant at the learner’s request; this is not an independent judge score.
 
 **Scope:** One input, two outputs, same-model self-review. This does not demonstrate robustness across the starter dataset, establish a population hallucination rate, or measure latency. Independent different-family judging was skipped.
