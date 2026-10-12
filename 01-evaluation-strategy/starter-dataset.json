@@ -1,0 +1,385 @@
+{
+  "name": "Ascend IQ noisy business updates v1",
+  "synthetic": true,
+  "annotation_status": "Assistant-drafted reference checklists; learner review pending. These are not the learner-defined golden-set criteria.",
+  "rows": [
+    {
+      "pair_id": "P01",
+      "essential_results": [
+        "1,200 qualified leads versus a 1,000 target"
+      ],
+      "essential_risks": [
+        "Acquisition cost rose from £80 to £95"
+      ],
+      "essential_actions": [
+        "Marketing will review channel spending on Friday"
+      ],
+      "claims_must_not_invent": [
+        "Revenue increased",
+        "Channel spending has already been reduced"
+      ],
+      "id": "P01-A",
+      "email_text": "Subject: Q4 campaign update\nFrom: Marketing\n\nQ4 campaigns generated 1,200 qualified leads against a target of 1,000. Acquisition cost rose from £80 to £95. Marketing will review channel spending on Friday.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P01",
+      "essential_results": [
+        "1,200 qualified leads versus a 1,000 target"
+      ],
+      "essential_risks": [
+        "Acquisition cost rose from £80 to £95"
+      ],
+      "essential_actions": [
+        "Marketing will review channel spending on Friday"
+      ],
+      "claims_must_not_invent": [
+        "Revenue increased",
+        "Channel spending has already been reduced"
+      ],
+      "id": "P01-B",
+      "email_text": "Subject: Re: Q4 campaign update\nFrom: Marketing\n\nThe office playlist poll closes tomorrow. We also have spare branded notebooks.\n\nQ4 campaigns generated 1,200 qualified leads against a target of 1,000. Acquisition cost rose from £80 to £95. Marketing will review channel spending on Friday.\n\nReminder: The office playlist poll closes tomorrow. We also have spare branded notebooks.",
+      "challenge_type": "irrelevant detail"
+    },
+    {
+      "pair_id": "P02",
+      "essential_results": [
+        "September bookings were £420,000 versus a £500,000 target"
+      ],
+      "essential_risks": [
+        "Two enterprise contracts remain unsigned"
+      ],
+      "essential_actions": [
+        "Sales will confirm contract status by Tuesday"
+      ],
+      "claims_must_not_invent": [
+        "The unsigned contracts are won",
+        "The target was met"
+      ],
+      "id": "P02-A",
+      "email_text": "Subject: September pipeline\nFrom: Sales\n\nSeptember bookings reached £420,000 against a £500,000 target. Two enterprise contracts remain unsigned. Sales will confirm their status by Tuesday.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P02",
+      "essential_results": [
+        "September bookings were £420,000 versus a £500,000 target"
+      ],
+      "essential_risks": [
+        "Two enterprise contracts remain unsigned"
+      ],
+      "essential_actions": [
+        "Sales will confirm contract status by Tuesday"
+      ],
+      "claims_must_not_invent": [
+        "The unsigned contracts are won",
+        "The target was met"
+      ],
+      "id": "P02-B",
+      "email_text": "Subject: Re: September pipeline\nFrom: Sales\n\nThe sales team photo is available in the shared folder.\n\nSeptember bookings reached £420,000 against a £500,000 target. Two enterprise contracts remain unsigned. Sales will confirm their status by Tuesday.\n\nReminder: The sales team photo is available in the shared folder.",
+      "challenge_type": "irrelevant detail"
+    },
+    {
+      "pair_id": "P03",
+      "essential_results": [
+        "32 of 40 accounts due in October have renewed"
+      ],
+      "essential_risks": [
+        "Three remaining accounts raised pricing concerns"
+      ],
+      "essential_actions": [],
+      "claims_must_not_invent": [
+        "Eight accounts have churned",
+        "Discounts have been approved"
+      ],
+      "id": "P03-A",
+      "email_text": "Subject: Renewal update\nFrom: Customer Success\n\nOf 40 accounts due for renewal in October, 32 have renewed. Three of the remaining eight have raised pricing concerns. No next action has been agreed.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P03",
+      "essential_results": [
+        "32 of 40 accounts due in October have renewed"
+      ],
+      "essential_risks": [
+        "Three remaining accounts raised pricing concerns"
+      ],
+      "essential_actions": [],
+      "claims_must_not_invent": [
+        "Eight accounts have churned",
+        "Discounts have been approved"
+      ],
+      "id": "P03-B",
+      "email_text": "Subject: Re: Renewal update\nFrom: Customer Success\n\nThank you to everyone who attended the team breakfast.\n\n- No next action has been agreed.\n- Three of the remaining eight have raised pricing concerns.\n- Of 40 accounts due for renewal in October, 32 have renewed.\n\nReminder: Thank you to everyone who attended the team breakfast.",
+      "challenge_type": "irrelevant detail + reordered sections + bullet formatting"
+    },
+    {
+      "pair_id": "P04",
+      "essential_results": [
+        "18 of 20 acceptance checks passed"
+      ],
+      "essential_risks": [
+        "Two accessibility checks fail",
+        "Release date is unconfirmed"
+      ],
+      "essential_actions": [
+        "Engineering will retest on Thursday"
+      ],
+      "claims_must_not_invent": [
+        "The dashboard has launched",
+        "Release is confirmed for Thursday"
+      ],
+      "id": "P04-A",
+      "email_text": "Subject: Release readiness\nFrom: Engineering\n\nThe new dashboard passed 18 of 20 acceptance checks. Two accessibility checks are still failing. Engineering will retest on Thursday; the release date is not confirmed.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P04",
+      "essential_results": [
+        "18 of 20 acceptance checks passed"
+      ],
+      "essential_risks": [
+        "Two accessibility checks fail",
+        "Release date is unconfirmed"
+      ],
+      "essential_actions": [
+        "Engineering will retest on Thursday"
+      ],
+      "claims_must_not_invent": [
+        "The dashboard has launched",
+        "Release is confirmed for Thursday"
+      ],
+      "id": "P04-B",
+      "email_text": "Subject: Re: Release readiness\nFrom: Engineering\n\nThe internal demo recording includes five minutes of introductions.\n\nThe new dashboard passed 18 of 20 acceptance checks. Two accessibility checks are still failing. Engineering will retest on Thursday; the release date is not confirmed.\n\nReminder: The internal demo recording includes five minutes of introductions.",
+      "challenge_type": "irrelevant detail"
+    },
+    {
+      "pair_id": "P05",
+      "essential_results": [
+        "Median first-response time fell from 6 to 4 hours"
+      ],
+      "essential_risks": [
+        "Unresolved tickets grew from 90 to 130"
+      ],
+      "essential_actions": [
+        "Support will trial afternoon triage next week"
+      ],
+      "claims_must_not_invent": [
+        "Resolution time improved",
+        "The backlog shrank"
+      ],
+      "id": "P05-A",
+      "email_text": "Subject: Support queue\nFrom: Support\n\nMedian first-response time fell from 6 hours to 4 hours this week. The unresolved queue grew from 90 to 130 tickets. Support will trial afternoon triage next week.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P05",
+      "essential_results": [
+        "Median first-response time fell from 6 to 4 hours"
+      ],
+      "essential_risks": [
+        "Unresolved tickets grew from 90 to 130"
+      ],
+      "essential_actions": [
+        "Support will trial afternoon triage next week"
+      ],
+      "claims_must_not_invent": [
+        "Resolution time improved",
+        "The backlog shrank"
+      ],
+      "id": "P05-B",
+      "email_text": "Subject: Re: Support queue\nFrom: Support\n\nThe support team is voting on a name for its newsletter.\n\nMedian first-response time fell from 6 hours to 4 hours this week. The unresolved queue grew from 90 to 130 tickets. Support will trial afternoon triage next week.\n\nReminder: The support team is voting on a name for its newsletter.",
+      "challenge_type": "irrelevant detail"
+    },
+    {
+      "pair_id": "P06",
+      "essential_results": [
+        "September operating spend was £210,000 versus a £200,000 budget"
+      ],
+      "essential_risks": [
+        "The total includes a disputed £15,000 invoice"
+      ],
+      "essential_actions": [
+        "Finance will review the invoice on Monday"
+      ],
+      "claims_must_not_invent": [
+        "The invoice has been refunded",
+        "Spend excludes the disputed invoice"
+      ],
+      "id": "P06-A",
+      "email_text": "Subject: Operating spend\nFrom: Finance\n\nSeptember operating spend was £210,000 against a budget of £200,000. A £15,000 supplier invoice is disputed but is included in that total. Finance will review the invoice on Monday.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P06",
+      "essential_results": [
+        "September operating spend was £210,000 versus a £200,000 budget"
+      ],
+      "essential_risks": [
+        "The total includes a disputed £15,000 invoice"
+      ],
+      "essential_actions": [
+        "Finance will review the invoice on Monday"
+      ],
+      "claims_must_not_invent": [
+        "The invoice has been refunded",
+        "Spend excludes the disputed invoice"
+      ],
+      "id": "P06-B",
+      "email_text": "Subject: Re: Operating spend\nFrom: Finance\n\nPlease use the updated slide footer in internal presentations.\n\n- Finance will review the invoice on Monday.\n- A £15,000 supplier invoice is disputed but is included in that total.\n- September operating spend was £210,000 against a budget of £200,000.\n\nReminder: Please use the updated slide footer in internal presentations.",
+      "challenge_type": "irrelevant detail + reordered sections + bullet formatting"
+    },
+    {
+      "pair_id": "P07",
+      "essential_results": [
+        "Four of six planned analyst roles have been filled"
+      ],
+      "essential_risks": [
+        "Two vacancies may delay new client team onboarding"
+      ],
+      "essential_actions": [],
+      "claims_must_not_invent": [
+        "Onboarding is definitely delayed",
+        "Contractors have been hired"
+      ],
+      "id": "P07-A",
+      "email_text": "Subject: Hiring update\nFrom: People\n\nFour of six planned analyst roles have been filled. The remaining two vacancies may delay onboarding for the new client team. No mitigation has been selected.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P07",
+      "essential_results": [
+        "Four of six planned analyst roles have been filled"
+      ],
+      "essential_risks": [
+        "Two vacancies may delay new client team onboarding"
+      ],
+      "essential_actions": [],
+      "claims_must_not_invent": [
+        "Onboarding is definitely delayed",
+        "Contractors have been hired"
+      ],
+      "id": "P07-B",
+      "email_text": "Subject: Re: Hiring update\nFrom: People\n\nThe book club meets on Wednesday and welcomes suggestions.\n\nFour of six planned analyst roles have been filled. The remaining two vacancies may delay onboarding for the new client team. No mitigation has been selected.\n\nReminder: The book club meets on Wednesday and welcomes suggestions.",
+      "challenge_type": "irrelevant detail"
+    },
+    {
+      "pair_id": "P08",
+      "essential_results": [
+        "94 of 100 deliveries arrived on time"
+      ],
+      "essential_risks": [
+        "One supplier accounted for all six late deliveries"
+      ],
+      "essential_actions": [
+        "Operations will meet the supplier on Wednesday"
+      ],
+      "claims_must_not_invent": [
+        "The supplier will be replaced",
+        "Late deliveries caused lost revenue"
+      ],
+      "id": "P08-A",
+      "email_text": "Subject: Supplier deliveries\nFrom: Operations\n\nThis week, 94 of 100 supplier deliveries arrived on time. All six late deliveries came from one supplier. Operations will meet that supplier on Wednesday.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P08",
+      "essential_results": [
+        "94 of 100 deliveries arrived on time"
+      ],
+      "essential_risks": [
+        "One supplier accounted for all six late deliveries"
+      ],
+      "essential_actions": [
+        "Operations will meet the supplier on Wednesday"
+      ],
+      "claims_must_not_invent": [
+        "The supplier will be replaced",
+        "Late deliveries caused lost revenue"
+      ],
+      "id": "P08-B",
+      "email_text": "Subject: Re: Supplier deliveries\nFrom: Operations\n\nThe warehouse noticeboard has been repainted.\n\nThis week, 94 of 100 supplier deliveries arrived on time. All six late deliveries came from one supplier. Operations will meet that supplier on Wednesday.\n\nReminder: The warehouse noticeboard has been repainted.",
+      "challenge_type": "irrelevant detail"
+    },
+    {
+      "pair_id": "P09",
+      "essential_results": [
+        "18 of 25 pilot users completed the task without help"
+      ],
+      "essential_risks": [
+        "Five reported confusing labels",
+        "Pilot findings do not establish performance for all customers"
+      ],
+      "essential_actions": [
+        "Product will test revised labels next week"
+      ],
+      "claims_must_not_invent": [
+        "All customers achieve the pilot completion rate",
+        "The new labels already solved the issue"
+      ],
+      "id": "P09-A",
+      "email_text": "Subject: Pilot feedback\nFrom: Product\n\nIn a pilot with 25 users, 18 completed the reporting task without help. Five users reported confusing filter labels. Product will test revised labels next week. This pilot does not establish performance for all customers.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P09",
+      "essential_results": [
+        "18 of 25 pilot users completed the task without help"
+      ],
+      "essential_risks": [
+        "Five reported confusing labels",
+        "Pilot findings do not establish performance for all customers"
+      ],
+      "essential_actions": [
+        "Product will test revised labels next week"
+      ],
+      "claims_must_not_invent": [
+        "All customers achieve the pilot completion rate",
+        "The new labels already solved the issue"
+      ],
+      "id": "P09-B",
+      "email_text": "Subject: Re: Pilot feedback\nFrom: Product\n\nThe next product social will include a board-game session.\n\n- This pilot does not establish performance for all customers.\n- Product will test revised labels next week.\n- Five users reported confusing filter labels.\n- In a pilot with 25 users, 18 completed the reporting task without help.\n\nReminder: The next product social will include a board-game session.",
+      "challenge_type": "irrelevant detail + reordered sections + bullet formatting"
+    },
+    {
+      "pair_id": "P10",
+      "essential_results": [
+        "Dashboard reports 8,400 active accounts, not users"
+      ],
+      "essential_risks": [
+        "The final day of September is excluded"
+      ],
+      "essential_actions": [
+        "Analytics will refresh the report tomorrow"
+      ],
+      "claims_must_not_invent": [
+        "There are 8,400 individual users",
+        "The count covers the complete month"
+      ],
+      "id": "P10-A",
+      "email_text": "Subject: Usage report\nFrom: Analytics\n\nThe September dashboard reports 8,400 active accounts. This is a count of accounts, not individual users. The data excludes the final day of September. Analytics will refresh the report tomorrow.",
+      "challenge_type": "ordinary"
+    },
+    {
+      "pair_id": "P10",
+      "essential_results": [
+        "Dashboard reports 8,400 active accounts, not users"
+      ],
+      "essential_risks": [
+        "The final day of September is excluded",
+        "A second export reports 8,650 for the same scope; the discrepancy is unresolved"
+      ],
+      "essential_actions": [
+        "Analytics will refresh the report tomorrow"
+      ],
+      "claims_must_not_invent": [
+        "There are 8,400 individual users",
+        "The count covers the complete month",
+        "Either conflicting count is verified as correct"
+      ],
+      "id": "P10-B",
+      "email_text": "Subject: Re: Usage report\nFrom: Analytics\n\nThe analytics glossary has a new cover illustration.\n\nThe September dashboard reports 8,400 active accounts. This is a count of accounts, not individual users. The data excludes the final day of September. Analytics will refresh the report tomorrow.\nA second export reports 8,650 active accounts for the same period and scope. The discrepancy with 8,400 is unresolved.\n\nReminder: The analytics glossary has a new cover illustration.",
+      "challenge_type": "irrelevant detail + unresolved conflicting figures"
+    }
+  ]
+}
